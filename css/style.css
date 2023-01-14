@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6 , p {
     padding-bottom: 50px;
 }
 
+.mobile-navbar-wrapper {
+    display: none;
+}
+
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
@@ -99,11 +103,12 @@ h1, h2, h3, h4, h5, h6 , p {
     border-radius: 30px;
     color: var(--white-color);
     font-size: 16px;
+    font-family: var(--primary-font);
 }
 
 .banner-wrapper a i {
     color: var(--white-color);
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-left: 5px;
     font-size: 15px;
 }
@@ -127,7 +132,6 @@ h1, h2, h3, h4, h5, h6 , p {
 .sponser {
     padding-top: 100px;
     padding-bottom: 100px;
-    /* background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%); */
 }
 
 .sponser-wrapper {
@@ -309,6 +313,9 @@ h1, h2, h3, h4, h5, h6 , p {
 
 .footer-icon {
     margin-top: 17px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 .footer-icon a {
