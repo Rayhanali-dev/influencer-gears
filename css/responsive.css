@@ -57,8 +57,6 @@
         padding: 0 20px;
     }
 
-    
-
     .banner-left {
         width: 50%;
     }
@@ -177,6 +175,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        position: relative;
     }
 
     .bars span {
@@ -185,6 +184,32 @@
         height: 3px;
         margin-bottom: 5px;
         background-color: #1B1B1B;
+    }
+
+    .menu {
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 300px;
+        z-index: 111;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: all linear .3s;
+        opacity: 0;
+    }
+
+    .bars:hover .menu {
+        left: 0;
+        opacity: 1;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .menu .nav-link {
+        color: #000;
     }
 
     .logo-title {
@@ -352,6 +377,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        position: relative;
     }
 
     .bars span {
@@ -360,6 +386,32 @@
         height: 3px;
         margin-bottom: 5px;
         background-color: #1B1B1B;
+    }
+
+    .menu {
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 300px;
+        z-index: 111;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: all linear .3s;
+        opacity: 0;
+    }
+
+    .bars:hover .menu {
+        left: 0;
+        opacity: 1;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .menu .nav-link {
+        color: #000;
     }
 
     .logo-title {
